@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor
-public class TaskWithExpiryDate {
+public class TaskWithExpiryDate extends Task {
 
     //Implement me here :D
     @Column(name = "due_date", nullable = false)
